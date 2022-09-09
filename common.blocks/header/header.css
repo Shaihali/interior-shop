@@ -1,0 +1,28 @@
+header {
+    background-image: url("../../img/img_index/main_img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 735px;
+}
+.header-top {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header-content h1 {
+  margin: 0;
+}
+.header-content {
+    width: 800px;
+    box-sizing: border-box;
+    padding-right: 50px;
+    margin-top: 63px;
+}
+.header-content__text {
+    opacity: .7;
+}
+.header-content__link {
+ opacity: .5;
+}
+
+    
