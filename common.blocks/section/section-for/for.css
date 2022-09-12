@@ -1,0 +1,36 @@
+.for {
+
+}
+.for__content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.for__item {
+	position: relative;
+}
+.for__item_size_l {
+	/*width: calc(100%/2);*/
+	flex-basis: 584px;
+	margin-bottom: 32px;
+}
+.for__item_size_m {
+	/*width: calc(100%/3);*/
+	flex-basis: 378px;
+}
+.for__item_mrgR {
+	margin-right: 32px;
+}
+.for__item__link {
+
+}
+.for__item__text {
+	position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin: 0;
+}
+.for__item__img {
+	width: 100%;
+}

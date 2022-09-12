@@ -4,11 +4,6 @@ header {
     background-position: center;
     height: 735px;
 }
-.header-top {
-    width: 1200px;
-    height: 100%;
-    margin: 0 auto;
-}
 .header-content h1 {
   margin: 0;
 }

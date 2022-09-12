@@ -4,9 +4,12 @@
 }
 .nav-list__item {
     list-style-type: none;
+    
+}
+.nav-list__item:first-child {
     margin-right: 32px;
 }
 .nav-list__link {
     text-decoration: none;
-    opacity: .5;
+    opacity: .7;
 }
