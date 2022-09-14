@@ -1,0 +1,8 @@
+.product__content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.product__content_mrg {
+	margin-bottom: 56px;
+}

@@ -6,10 +6,20 @@ body {
     font-style: normal;
     color: #FFFFFF;
 }
+.text_style_black {
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #000000;
+}
 .text_size_16 {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+}
+.text_size_14 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
 }
 .text_size_36 {
     font-weight: 600;
