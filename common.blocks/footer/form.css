@@ -1,0 +1,35 @@
+.form {
+	display: flex;
+	flex-direction: column;
+}
+.form_size {
+	width: 245px;
+	height: 46px;
+	border-radius: 20px;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+.form__input {
+	border: 1px solid #C4C4C4;
+	padding-left: 25px;
+	font-size: 15px;
+	margin-bottom: 12px;
+}
+.form__btn {
+	border: 1px solid #FFFFFF;
+	cursor: pointer;
+}
+input[type="email"]::-webkit-input-placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #C4C4C4;
+    opacity: .5;
+}
+.footer__form-text {
+	font-size: 12px;
+	margin: 0 0 16px 0;
+}
