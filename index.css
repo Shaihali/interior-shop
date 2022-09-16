@@ -1,6 +1,35 @@
 body {
     margin: 0;
 }
+.search-media {
+    display: none;
+}
+.open {
+    display: flex!important;
+}
+.search-area {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.search-area__form {
+    width: 100%;
+}
+.search-area__item {
+    width: 100%;
+    border-width: 0 0 1px 0;  
+}
+.search-area__item::-moz-placeholder {
+    color: black;
+}
+.search-area__item[type="search"]::-webkit-input-placeholder {
+    color: #000000;
+}
+
 .text_style {
     font-family: 'Montserrat';
     font-style: normal;

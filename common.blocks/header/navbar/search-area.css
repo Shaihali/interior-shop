@@ -1,0 +1,27 @@
+.search-area {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #9d9991;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+}
+.search-area__form {
+    width: 100%;
+}
+.search-area__item {
+    width: 100%;
+    height: 41px;
+    border-width: 0 0 1px 0;
+    outline: none; 
+}
+.search-area__item::-moz-placeholder {
+    color: black;
+}
+.search-area__item[type="search"]::-webkit-input-placeholder {
+    color: #000000;
+}
