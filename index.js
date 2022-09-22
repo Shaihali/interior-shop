@@ -6,6 +6,7 @@ const form = document.querySelector('.search-area__form')
 const navlistShow = document.querySelector('.nav-list')
 const basketBtn = document.querySelector('.basket-btn')
 
+
 searchBtn.addEventListener('click', function() {
 	searchArea.classList.add('open')
 	navlistShow.classList.remove('open')

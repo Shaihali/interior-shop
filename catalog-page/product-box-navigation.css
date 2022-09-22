@@ -1,0 +1,23 @@
+.product-box-navigation {
+
+}
+.product-box-navigation__directories {
+
+}
+.product-box-navigation__form-dropdown {
+	display: flex;
+	align-items: center;
+	width: 288px;
+	height: 41px;
+	border: 1px solid #C4C4C4;
+	border-radius: 20px;
+	padding-left: 14px;
+	box-sizing: border-box;
+	position: relative;
+}
+.product-box-navigation__form-dropdown_title {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+}
