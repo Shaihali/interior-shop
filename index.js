@@ -1,10 +1,10 @@
-const searchBtn = document.querySelector('.search-media__search')
-const searchArea = document.querySelector('.search-area')
+const searchBtn = document.querySelector('.search-media-mobile__search')
+const searchArea = document.querySelector('.search-area-mobile')
 const searchAreaClose = document.querySelector('.search-area__close')
-const menuBtn = document.querySelector('.menu')
-const form = document.querySelector('.search-area__form')
+const menuBtn = document.querySelector('.menu-mobile')
+const form = document.querySelector('.search-area-mobile__form')
 const navlistShow = document.querySelector('.nav-list')
-const basketBtn = document.querySelector('.basket-btn')
+const basketBtn = document.querySelector('.basket-btn-mobile')
 
 
 searchBtn.addEventListener('click', function() {
