@@ -22,9 +22,10 @@
         <link rel="stylesheet" href="../common.blocks/footer/form.css">
         <link rel="stylesheet" href="../common.blocks/media-screen/media-screen__834.css">
         <link rel="stylesheet" href="../common.blocks/media-screen/media-screen__375.css">
+        <link rel="stylesheet" href="./basket-page.css">
     </head>
     <body>
-        <header class="header-catalog">
+        <header class="header-basket">
             <div class="header-top content-box">
                 <div class="search-area-mobile">
                     <form class="search-area-mobile__form">
@@ -75,138 +76,69 @@
                             <a class="nav-list__link" href="../index.html">Главное</a>
                         </li>
                         <li class="nav-list__item">
-                            <a class="nav-list__link" href="../basket-page/basket-page.html">Корзина</a>
+                            <a class="nav-list__link" href="../catalog-page/catalog-page.html">Каталог</a>
                         </li>
                     </ul>
                 </nav>
                 <div class="header-content">
-                    <h1 class="header-content__title">Каталог</h1>
+                    <h1 class="header-content__title">Корзина</h1>
                 </div>
             </div>
         </header>
-        <section class="product-box content-box">
-                <div class="product-box-navigation">
-                    <div class="product-box-navigation__directories">
-                        <a class="product-box-navigation__directories__item" href="../index.html">Главная</a>
-                        <span class="product-box-navigation__directories__item">/</span>
-                        <span class="product-box-navigation__directories__item">Каталог товаров</span>
-                    </div>
-                    <form class="product-box-navigation__form-dropdown">
-                        <span class="product-box-navigation__form-dropdown_title">Порядок:</span>
-                        <span class="product-box-navigation__form-dropdown_text">сперва новые</span>
-                        <div class="dropdown">    
-                            <a href="#" class="dropdown__link">сперва новые</a>
-                            <a href="#" class="dropdown__link">коллекция 2021</a>
-                            <a href="#" class="dropdown__link">коллекция 2020</a>
-                        </div>
-                        <span class="product-box-navigation__form-dropdown_btn">
-                            <svg width="18" height="9" viewBox="0 0 18 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9 9L0.339745 0.749998L17.6603 0.75L9 9Z" fill="black"/>
-                            </svg>
-                        </span>
-                    </form>
+        <div class="content-box">
+            <article class="basket-place">
+                <div></div>
+                <div class="product">
+                    <img class="product__img" src="../img/img_catalog/productImg/menu.png" alt="Стол">
+                    <a href="#">
+                        <h3 class="product__title">Стол MENU</h3>
+                    </a>
+                    <p class="product__text">Для того чтобы трапезничать было приятно, необходим правильный обеденный стол.</p>
+                    <div class="product__price-sales">34 000 руб.</div>
                 </div>
-                <div class="product__content">
-                    <div class="product">
-                        <img class="product__img" src="../img/img_catalog/productImg/tatran.png" alt="Кровать">
-                        <a href="#">
-                            <h3 class="product__title">Кровать TATRAN</h3>
-                        </a>
-                        <p class="product__text">Основание из полированной нержавеющей стали, придает оригинальный парящий эффект.</p>
-                        <div class="product__price-sales">120 000 руб.</div>
-                    </div>
-                    <div class="product">
-                        <img class="product__img" src="../img/img_catalog/productImg/vilora.png" alt="Кресло">
-                        <a href="#">
-                            <h3 class="product__title">Кресло VILORA</h3>
-                        </a>
-                        <p class="product__text">Мягкое и уютное, аккуратное и стильное. Упругие подушки сиденья и приятная на ощупь ткань.</p>
-                        <div class="product__price-sales">21 000 руб.</div>
-                    </div>
-                    <div class="product">
-                        <img class="product__img" src="../img/img_catalog/productImg/menu.png" alt="Стол">
-                        <a href="#">
-                            <h3 class="product__title">Стол MENU</h3>
-                        </a>
-                        <p class="product__text">Для того чтобы трапезничать было приятно, необходим правильный обеденный стол.</p>
-                        <div class="product__price-sales">34 000 руб.</div>
-                    </div>
-                    <div class="product">
-                        <img class="product__img" src="../img/img_catalog/productImg/asketa.png" alt="Кресло">
-                        <a href="#">
-                            <h3 class="product__title">Кресло ASKESTA</h3>
-                        </a>
-                        <p class="product__text">Высокоэластичный пенополиуретан в «начинке» кресла надежен и долговечен</p>
-                        <div class="product__price-sales">68 000 руб.</div>
-                    </div>
-                    <div class="product">
-                        <img class="product__img" src="../img/img_catalog/productImg/lunar.png" alt="Стол">
-                        <a href="#">
-                            <h3 class="product__title">Стол NORMAN</h3>
-                        </a>
-                        <p class="product__text">Прекрасно переносит солнечные лучи, перепады влажности и любые осадки</p>
-                        <div class="product__price-sales">40 000 руб.</div>
-                    </div>
-                    <div class="product">
-                        <img class="product__img" src="../img/img_catalog/productImg/nastan.png" alt="Стол">
-                        <a href="#">
-                            <h3 class="product__title">Диван NASTAN</h3>
-                        </a>
-                        <p class="product__text">Модель отличается простотой линий и форм, отсутствием броского декора.</p>
-                        <div class="product__price-sales">80 000 руб.</div>
-                    </div>
-                    <div class="product">
-                        <img class="product__img" src="../img/img_catalog/productImg/tatran.png" alt="Кровать">
-                        <a href="#">
-                            <h3 class="product__title">Кровать TATRAN</h3>
-                        </a>
-                        <p class="product__text">Основание из полированной нержавеющей стали, придает оригинальный парящий эффект.</p>
-                        <div class="product__price-sales">120 000 руб.</div>
-                    </div>
-                    <div class="product">
-                        <img class="product__img" src="../img/img_catalog/productImg/vilora.png" alt="Кресло">
-                        <a href="#">
-                            <h3 class="product__title">Кресло VILORA</h3>
-                        </a>
-                        <p class="product__text">Мягкое и уютное, аккуратное и стильное. Упругие подушки сиденья и приятная на ощупь ткань.</p>
-                        <div class="product__price-sales">21 000 руб.</div>
-                    </div>
-                    <div class="product">
-                        <img class="product__img" src="../img/img_catalog/productImg/menu.png" alt="Стол">
-                        <a href="#">
-                            <h3 class="product__title">Стол MENU</h3>
-                        </a>
-                        <p class="product__text">Для того чтобы трапезничать было приятно, необходим правильный обеденный стол.</p>
-                        <div class="product__price-sales">34 000 руб.</div>
-                    </div>
-                    <div class="product">
-                        <img class="product__img" src="../img/img_catalog/productImg/asketa.png" alt="Кресло">
-                        <a href="#">
-                            <h3 class="product__title">Кресло ASKESTA</h3>
-                        </a>
-                        <p class="product__text">Высокоэластичный пенополиуретан в «начинке» кресла надежен и долговечен</p>
-                        <div class="product__price-sales">68 000 руб.</div>
-                    </div>
-                    <div class="product">
-                        <img class="product__img" src="../img/img_catalog/productImg/lunar.png" alt="Стол">
-                        <a href="#">
-                            <h3 class="product__title">Стол NORMAN</h3>
-                        </a>
-                        <p class="product__text">Прекрасно переносит солнечные лучи, перепады влажности и любые осадки</p>
-                        <div class="product__price-sales">40 000 руб.</div>
-                    </div>
-                    <div class="product">
-                        <img class="product__img" src="../img/img_catalog/productImg/nastan.png" alt="Стол">
-                        <a href="#">
-                            <h3 class="product__title">Диван NASTAN</h3>
-                        </a>
-                        <p class="product__text">Модель отличается простотой линий и форм, отсутствием броского декора.</p>
-                        <div class="product__price-sales">80 000 руб.</div>
-                    </div>
-                    <div class="link-box">
-                        <a class=".text_size_16 text_style_black" href="#">Показать еще</a>
-                    </div>
-                </div>  
+                <div class="product">
+                    <img class="product__img" src="../img/img_catalog/productImg/menu.png" alt="Стол">
+                    <a href="#">
+                        <h3 class="product__title">Стол MENU</h3>
+                    </a>
+                    <p class="product__text">Для того чтобы трапезничать было приятно, необходим правильный обеденный стол.</p>
+                    <div class="product__price-sales">34 000 руб.</div>
+                </div>
+                <div></div>
+            </article>
+            <aside></aside>
+        </div>
+        <section class="product-box content-box">
+            <h2>Специальные предложения</h2>
+            <div class="product__content">
+                <div class="product">
+                    <img class="product__img" src="../img/img_index/section_special/Люсра.png">
+                    <a href="#">
+                        <h3 class="product__title">Люстра VODA</h3>
+                    </a>
+                    <p class="product__text">Основание из полированной нержавеющей стали, придает оригинальный парящий эффект.</p>
+                    <div class="product__price-sales">45 000 руб.<span class="product__price">67 000 руб.</span></div>
+                </div>
+                <div class="product">
+                    <img class="product__img" src="../img/img_index/section_special/Диван.png">
+                    <a href="#">
+                        <h3 class="product__title">Диван RONALD</h3>
+                    </a>
+                    <p class="product__text">Модель отличается простотой линий и форм, отсутствием броского декора.</p>
+                    <div class="product__price-sales">156 000 руб.<span class="product__price">198 000 руб.</span></div>
+                </div>
+                <div class="product">
+                    <img class="product__img" src="../img/img_index/section_special/Комод.png">
+                    <a href="#">
+                        <h3 class="product__title">Комод VENT</h3>
+                    </a>
+                    <p class="product__text">Европейский дуб - отличается особой прочностью и стабильностью.</p>
+                    <div class="product__price-sales">34 000 руб.<span class="product__price">45 000 руб.</span></div>
+                </div>
+                <div class="link-box">
+                    <a class=".text_size_16 text_style_black" href="../catalog-page/catalog-page.html">Перейти в каталог</a>
+                </div>
+            </div>  
         </section>
         <footer class="footer">
             <div class="footer__block content-box">
