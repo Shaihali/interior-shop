@@ -3,7 +3,9 @@
 		width: 343px;
 	}
 
-
+	.product-box-navigation {
+		flex-direction: column;
+	}
 
 	.logo {
 		font-size: 18px;
@@ -34,20 +36,20 @@
 	.header-content__link {
 		font-size: 14px;
 	}
-	.search-media {
+	.search-media-mobile {
 		display: flex;
 		justify-content: space-between;
 		flex-grow: 1.8;
 		align-items: center;
 	}
 
-
-	.text_size_48 {
-		font-size: 24px;
-		line-height: 29px;
+	.search-area-mobile .nav-list__link {
+		color: #000000;
 	}
+
 	.content-box h2 {
 		margin: 32px 0;
+		font-size: 24px;
 	}
 
 
@@ -68,13 +70,8 @@
 
 
 
-	.product:nth-child(2) {
-		margin: 0 0 32px 0;
-	}
-	.product:nth-child(4) {
-		margin: 0 0 32px 0;
-	}
-
+	
+	
 
 
 

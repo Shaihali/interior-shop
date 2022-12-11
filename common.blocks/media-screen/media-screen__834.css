@@ -6,10 +6,10 @@
 
                  /* FOR MEDIA-SCREEN */
                  
-	.for__item_size_l {
+	.for__item:nth-child(-n+2) {
 		flex-basis: 377px;
 	}
-	.for__item_size_m {
+	.for__item {
 		flex-basis: 240px;
 	}
 
@@ -20,14 +20,8 @@
 	.product {
 		flex-basis: 377px;
 	}
-	.product:nth-child(1) {
-		margin: 0 0 32px 0;
-	}
-	.product:nth-child(2) {
-		margin: 0 0 32px 32px;
-	}
-	.product:nth-child(4) {
-		margin: 0 0 32px 32px;
+	.product-box-navigation {
+		flex-direction: row;
 	}
 
 
