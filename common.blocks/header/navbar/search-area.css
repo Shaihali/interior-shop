@@ -1,4 +1,4 @@
-.search-area {
+/* .search-area {
     display: none;
     flex-direction: column;
     align-items: center;
@@ -24,4 +24,4 @@
 }
 .search-area__item[type="search"]::-webkit-input-placeholder {
     color: #000000;
-}
+} */
