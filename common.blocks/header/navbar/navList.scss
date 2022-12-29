@@ -1,0 +1,15 @@
+@import "./mixin";
+
+.nav-list {
+	@include display(32px);
+	padding: 0;
+	margin: 0;
+}
+.nav-list__item {
+	list-style-type: none;
+}
+.nav-list__link {
+	@include font(Montserrat, normal,  16px, 400, 20px, #ffffff);
+	text-decoration: none;
+	opacity: .7;
+}

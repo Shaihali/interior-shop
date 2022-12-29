@@ -1,0 +1,26 @@
+header {
+	height: 735px;
+
+	.header-content {
+		margin-top: 63px;
+		max-width: 750px;
+		color: #FFFFFF;
+
+		.header-content__title {
+			font-size: 64px;
+		}
+		.header-content__text {
+			font-size: 24px;
+			opacity: .8;
+		}
+		.header-content__link {
+			opacity: .8;
+			color: inherit;
+		}
+		h1 {
+			margin: 0;
+		}
+	}
+}
+
+

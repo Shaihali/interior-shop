@@ -1,0 +1,13 @@
+@mixin display($gap) {
+	display: flex;
+  flex-direction: row;
+	gap: $gap;
+}
+@mixin font($ff, $fs, $fsz, $fw, $lh, $clr) {
+	font-family: $ff;
+	font-style: $fs;
+	font-weight: $fw;
+	font-size: $fsz;
+	line-height: $lh;
+	color: $clr;
+}

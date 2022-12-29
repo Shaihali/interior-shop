@@ -1,6 +1,6 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 374.98px) {
 	.content-box {
-		width: 343px;
+		min-width: 374.98px;
 	}
 
 	.product-box-navigation {
